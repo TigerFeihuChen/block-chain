@@ -1,0 +1,23 @@
+{
+  "name": "block-chain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo app.js --live --pushstate -- -t [ babelify --presets es2015 ]"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TigerFeihuChen/block-chain.git"
+  },
+  "author": "Tiger Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TigerFeihuChen/block-chain/issues"
+  },
+  "devDependencies": {
+    "budo": "^11.2.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^7.3.0"
+  }
+}
